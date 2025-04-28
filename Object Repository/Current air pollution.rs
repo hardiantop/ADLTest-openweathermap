@@ -29,11 +29,20 @@
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <validationSteps>
       <id>a38eb513-bc5d-4191-9c00-98176ad38682</id>
-      <name>coord</name>
+      <name>main</name>
       <type>JSON_SCHEMA</type>
       <dataType>FILE</dataType>
       <target>RESPONSE</target>
-      <data>C:\Users\albra\Katalon Studio\ADLTest-openweathermap\OpenWeatherAPIAirPollutionSchema.txt</data>
+      <data>C:\Schema\OpenWeatherAPIAirPollutionSchema.txt</data>
+      <activate>true</activate>
+   </validationSteps>
+   <validationSteps>
+      <id>6460e988-a5b2-409e-8f88-e51f4f7ab405</id>
+      <name>components</name>
+      <type>JSON_SCHEMA</type>
+      <dataType>FILE</dataType>
+      <target>RESPONSE</target>
+      <data>C:\Schema\OpenWeatherAPIAirPollutionSchema.txt</data>
       <activate>true</activate>
    </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*

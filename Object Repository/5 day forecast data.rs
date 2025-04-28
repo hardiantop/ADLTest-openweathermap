@@ -28,30 +28,39 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <validationSteps>
-      <id>8fb48a9e-d89c-4a82-8445-2d4201c026e7</id>
-      <name>cod</name>
-      <type>JSON_SCHEMA</type>
-      <dataType>FILE</dataType>
-      <target>RESPONSE</target>
-      <data>C:\Users\albra\Katalon Studio\ADLTest-openweathermap\OpenWeatherAPI5DaysForecastSchema.txt</data>
-      <activate>true</activate>
-   </validationSteps>
-   <validationSteps>
       <id>e9a7ac07-3f3b-40bb-8baa-3c9be8c2940f</id>
       <name>temp</name>
       <type>JSON_SCHEMA</type>
       <dataType>FILE</dataType>
       <target>RESPONSE</target>
-      <data>C:\Users\albra\Katalon Studio\ADLTest-openweathermap\OpenWeatherAPI5DaysForecastSchema.txt</data>
+      <data>C:\Schema\OpenWeatherAPI5DaysForecastSchema.txt</data>
       <activate>true</activate>
    </validationSteps>
    <validationSteps>
       <id>dad17764-ffc3-491a-ba1c-97bd39ea74a6</id>
       <name>weather</name>
       <type>JSON_SCHEMA</type>
-      <dataType>URL</dataType>
+      <dataType>FILE</dataType>
       <target>RESPONSE</target>
-      <data>https://github.com/hardiantop/ADLTest-openweathermap/blob/5af13242422da7f81de1577f7a303f15fca6cde3/OpenWeatherAPI5DaysForecastSchema</data>
+      <data>C:\Schema\OpenWeatherAPI5DaysForecastSchema.txt</data>
+      <activate>true</activate>
+   </validationSteps>
+   <validationSteps>
+      <id>d1dbf8ba-6c89-4638-b937-3511157b1f20</id>
+      <name>clouds</name>
+      <type>JSON_SCHEMA</type>
+      <dataType>FILE</dataType>
+      <target>RESPONSE</target>
+      <data>C:\Schema\OpenWeatherAPI5DaysForecastSchema.txt</data>
+      <activate>true</activate>
+   </validationSteps>
+   <validationSteps>
+      <id>135c6935-b995-4a41-8dca-5eb355befdec</id>
+      <name>rain</name>
+      <type>JSON_SCHEMA</type>
+      <dataType>FILE</dataType>
+      <target>RESPONSE</target>
+      <data>C:\Schema\OpenWeatherAPI5DaysForecastSchema.txt</data>
       <activate>true</activate>
    </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
